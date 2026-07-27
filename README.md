@@ -11,11 +11,13 @@ Throughout this project, packet captures were analyzed to identify ICMP, DNS, TC
 ## Objectives
 
 - Capture live network traffic using Wireshark
+
 - Identify common network protocols
+
 - Analyze ICMP traffic
+
 - Analyze DNS traffic
-- Analyze TCP connections
-- Observe encrypted TLS traffic
+
 - Practice basic packet analysis
 
 ---
@@ -44,12 +46,9 @@ Throughout this project, packet captures were analyzed to identify ICMP, DNS, TC
 
 ## Investigations
 
-- Live Packet Capture
-- ICMP Packet Analysis
-- DNS Packet Analysis
-- TCP Packet Analysis
-- TLS Packet Analysis
-- Protocol Hierarchy Statistics
+- [Investigation 1. Live Packet Capture](#investigation-1-live-packet-capture)
+- [Investigation 2. ICMP Packet Analysis](#investigation-2-icmp-packet-analysis)
+- [Investigation 3. DNS Analysis](#investigation-3-dns-analysis)
 
 ---
 
@@ -83,7 +82,7 @@ Capture and analyze Internet Control Message Protocol (ICMP) traffic generated b
 
 ## Procedure
 
-A continuous ping was initiated from the terminal while Wireshark captured network traffic. The display filter imcp was applied to isolate ICMP packets and simplify the analysis.
+A continuous ping was initiated from the terminal while Wireshark captured network traffic. The display filter `icmp` was applied to isolate ICMP packets and simplify the analysis.
 
 ## Screenshot
 
