@@ -53,12 +53,6 @@ Throughout this project, packet captures were analyzed to identify ICMP, DNS, TC
 
 ---
 
-## Lessons Learned
-
-This section will summarize the knowledge and experience gained after completing the project.
-
----
-
 # Investigation 1. Live Packet Capture
 
 ## Objective
@@ -127,3 +121,13 @@ The DNS capture showed the client sending a standard query to resolve the domain
 The capture also demonstrated that DNS traffic can include different record types, including HTTPS, A, and AAAA records. These records provide the information necessary for the client to locate and securely communicate with the requested website.
 
 This investigation illustrates how DNS acts as the Internet's directory service by translating human readable domain names into network addresses that applications can use to establish connections.
+
+---
+
+# Lessons Learned
+
+This project provided practical experience using Wireshark to capture and analyze network traffic. Through hands on investigations, I learned how to identify live network communications, interpret ICMP traffic used for connectivity testing, and examine DNS queries that resolve domain names into network addresses.
+
+The project also reinforced the importance of packet analysis as a foundational cybersecurity skill. Understanding how common protocols operate at the packet level improves the ability to troubleshoot network issues, investigate suspicious activity, and better understand how devices communicate across modern networks.
+
+These exercises strengthened my familiarity with Wireshark filters, packet inspection, and protocol analysis while building confidence in documenting technical findings in a professional format.
