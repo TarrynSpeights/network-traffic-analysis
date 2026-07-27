@@ -97,7 +97,9 @@ A continuous ping was initiated from the terminal while Wireshark captured netwo
 
 ## Findings
 
-The packet capture displayed ICMP Echo Request and Echo Reply messages exchanged between the local computer and the destination device. Each Echo Request was followed by an Echo Reply, confirming successful communication between the two systems.
+The ICMP packet capture displayed Echo Request and Echo Reply messages exchanged between devices on the local network. Each Echo Request was followed by an Echo Reply, confirming successful communication between the participating hosts.
 
-The analysis also revealed important packet details including the source IP address, destination IP address, Time to Live (TTL), and packet size. These fields help network administrators verify connectivity, troubleshoot network issues, and identify communication failures.
+The analysis identified the source and destination IP addresses, ICMP protocol type, and IPv4 header information including a Time to Live (TTL) value of 64. The accompanying terminal output also confirmed successful communication with Google's public DNS server (8.8.8.8), showing 15 packets transmitted, 15 packets received, and 0.0 percent packet loss.
+
+This investigation demonstrates how ICMP traffic can be used to verify network connectivity and troubleshoot communication issues.
 
