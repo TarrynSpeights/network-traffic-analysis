@@ -103,3 +103,25 @@ The analysis identified the source and destination IP addresses, ICMP protocol t
 
 This investigation demonstrates how ICMP traffic can be used to verify network connectivity and troubleshoot communication issues.
 
+
+---
+
+# Investigation 3. DNS Analysis
+
+## Objective
+
+Analyze Domain Name System (DNS) traffic to understand how domain names are translated into IP addresses before a connection to a website is established.
+
+## Procedure
+
+A new packet capture was started in Wireshark while visiting a website. After the page loaded, the capture was stopped and the display filter `dns` was applied to isolate DNS traffic. A DNS query packet was selected to examine the requested domain name and the corresponding response.
+
+## Screenshot
+
+![DNS Analysis](Screenshots/03-dns-analysis.png)
+
+## Findings
+
+The DNS packet capture showed the client sending a query to resolve a domain name into an IP address. The DNS server responded with the requested address, allowing the browser to establish a connection to the website.
+
+This investigation demonstrates the important role DNS plays in network communication by translating human-readable domain names into IP addresses used by computers for routing traffic across the Internet.
