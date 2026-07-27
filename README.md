@@ -56,3 +56,13 @@ Throughout this project, packet captures were analyzed to identify ICMP, DNS, TC
 ## Lessons Learned
 
 This section will summarize the knowledge and experience gained after completing the project.
+
+---
+
+# Project Walkthrough
+
+The following investigations demonstrate the packet captures and protocol analysis completed during this project.
+
+## Investigation 1 – Live Packet Capture
+
+[View Investigation](Documentation/01-live-packet-capture.md)
