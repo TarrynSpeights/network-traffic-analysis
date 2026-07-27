@@ -59,10 +59,23 @@ This section will summarize the knowledge and experience gained after completing
 
 ---
 
-# Project Walkthrough
+# Investigation 1. Live Packet Capture
 
-The following investigations demonstrate the packet captures and protocol analysis completed during this project.
+## Objective
 
-## Investigation 1 – Live Packet Capture
+Capture live network traffic using Wireshark to observe real time network communications.
 
-[View Investigation](Documentation/01-live-packet-capture.md)
+## Procedure
+
+The active Wi-Fi interface (en0) was selected in Wireshark and a live packet capture was started. While the capture was running, normal web browsing activity was performed to generate common network traffic for analysis.
+
+## Screenshot
+
+![Live Packet Capture](Screenshots/01-live-packet-capture.png)
+
+## Findings
+
+The packet capture immediately displayed multiple network protocols communicating across the local network. Wireshark identified the source address, destination address, protocol type, packet length, and additional details for each packet.
+
+This demonstrated how Wireshark provides real time visibility into network communications and serves as an essential tool for network troubleshooting and cybersecurity investigations.
+
