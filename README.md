@@ -89,7 +89,7 @@ Capture and analyze Internet Control Message Protocol (ICMP) traffic generated b
 
 ## Procedure
 
-A continuous ping was initiated from the terminal while Wireshark captured network traffic. The display filter `icmp` was applied to isolate ICMP packets and simplify the analysis.
+A continuous ping was initiated from the terminal while Wireshark captured network traffic. The display filter imcp was applied to isolate ICMP packets and simplify the analysis.
 
 ## Screenshot
 
