@@ -122,6 +122,8 @@ A new packet capture was started in Wireshark while visiting a website. After th
 
 ## Findings
 
-The DNS packet capture showed the client sending a query to resolve a domain name into an IP address. The DNS server responded with the requested address, allowing the browser to establish a connection to the website.
+The DNS capture showed the client sending a standard query to resolve the domain **www.wikipedia.org** before establishing a connection to the website. The packet details identified a single DNS query followed by a corresponding response from the DNS server.
 
-This investigation demonstrates the important role DNS plays in network communication by translating human-readable domain names into IP addresses used by computers for routing traffic across the Internet.
+The capture also demonstrated that DNS traffic can include different record types, including HTTPS, A, and AAAA records. These records provide the information necessary for the client to locate and securely communicate with the requested website.
+
+This investigation illustrates how DNS acts as the Internet's directory service by translating human readable domain names into network addresses that applications can use to establish connections.
